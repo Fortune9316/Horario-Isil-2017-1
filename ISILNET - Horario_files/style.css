@@ -1,0 +1,151 @@
+body{
+	font-size: 16px;
+	font-family: arial;
+	margin: 0;
+}
+.cabecera{
+	background: #0079C1;
+	color: #FFF;
+	padding: .8em;
+	font-size: 1.4em;
+	text-align: center;
+}
+.contenido{
+	text-align: center;
+	padding: 20px;
+	/*max-width: 567px;*/
+	margin: auto;
+}
+.saludo{
+	font-size: 1.2em;
+}
+#form{
+	border: solid 1px #00AEEF;
+	max-width: 478px;
+	background: #FCFCFC;
+	margin: auto;
+	padding: 17px 31px;
+	box-sizing: border-box;
+}
+#form form{
+	margin: 0;
+}
+#cantidad{
+	padding: 1em;
+	border-radius: 4px;
+}
+.boton{
+	background: #00AEEF;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 1em;
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+.recalculo{
+	display: block;
+	max-width: 433px;
+	margin: auto;
+}
+#controles{
+	padding-right: 2em;
+}
+.resaltado{
+	color: #00AEEF;
+    font-weight: bold;
+}
+.rezagados{
+	line-height: 1.5;
+}
+.resultado{
+	border: solid 1px #00AEEF;
+	background: #FCFCFC;
+	padding: 17px 31px;
+	display: inline-block;
+}
+.total{
+	/*width: 20%;*/
+	display: inline-block;
+	/*background: #F00;*/
+}
+
+.lista td, th{
+	border-bottom: solid 1px #00AEEF;
+	padding: .5em;
+}
+
+#horario .clase{
+	padding: 0;
+}
+
+#horario tr:hover td:not(.clase){
+	background: #FFF200;
+}
+
+#horario td a{
+	display: block;
+	padding: .5em;
+	text-decoration: none;
+	color: #000;
+}
+
+.alternativo{
+	background: #EFEFEF;
+}
+
+.LM{
+	background: #A2D37C;
+}
+
+.SI{
+	background: #DE9ECE;
+}
+
+.MI{
+	background: #88D2FF;
+}
+
+.JM{
+	background: #FBBB75;
+}
+
+.scurso{
+	color: #003555;
+	font-weight: bold;
+}
+
+.comentarios{
+	font-size: .8em;
+	max-width: 700px;
+	display: inline-block;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+  float: right;
+}
